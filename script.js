@@ -8,12 +8,6 @@ subtitulo.addEventListener("click", function() {
   }
 })
 
-const descripcion = document.getElementById("descripcion")
-
-descripcion.addEventListener("click", function() {
-  descripcion.style.color = "pink"
-})
-
 const campoNombre = document.getElementById("campo-nombre")
 const botonSaludar = document.getElementById("boton-saludar")
 const mensajeSaludo = document.getElementById("mensaje-saludo")
@@ -25,4 +19,10 @@ botonSaludar.addEventListener("click", function() {
   } else {
   mensajeSaludo.textContent = "¡Hola, " + nombre + "!"
 }
+})
+
+const seccionSobreMi = document.querySelector("section")
+
+seccionSobreMi.addEventListener("click", function() {
+  seccionSobreMi.classList.toggle("resaltado")
 })

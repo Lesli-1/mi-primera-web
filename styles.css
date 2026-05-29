@@ -104,3 +104,15 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.resaltado {
+  background-color: #f0f4ff;
+  border-left: 4px solid #3b82f6;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.oculto {
+  display: none;
+}
